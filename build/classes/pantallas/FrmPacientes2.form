@@ -1,0 +1,1037 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Container class="javax.swing.JMenu" name="jMenu1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jMenu1"/>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="true"/>
+      </Layout>
+    </Container>
+    <Menu class="javax.swing.JMenuBar" name="mbrPrincipal">
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="mn1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Men&#xfa; Responsables"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="mitHistorial1">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Shift+H"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Historial de salidas y entradas"/>
+                <Property name="actionCommand" type="java.lang.String" value="Historial Medico"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mitHistorial1ActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="mitResponsables">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+R"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Responsables de Pacientes"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mitResponsablesActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="mitPacientes">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+P"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Pacientes"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mitPacientesActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JPopupMenu$Separator" name="sep5">
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+      </SubComponents>
+    </Menu>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="bc" green="fd" red="c6" type="rgb"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="menuBar" type="java.lang.String" value="mbrPrincipal"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="pnlResponsable1" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="0" pref="22" max="32767" attributes="0"/>
+              <Component id="pnlResponsable1" min="-2" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="pnlResponsable1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="bc" green="fd" red="c6" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="pnlResponsable2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="38" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="jScrollPane1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="lblPa" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="203" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="lblRe" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="199" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Component id="jScrollPane3" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="pnlResponsable2" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                  <Component id="lblRe" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jScrollPane1" min="-2" pref="228" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="lblPa" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jScrollPane3" min="-2" pref="228" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="90" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="tblResponsables">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="fntComponente" type="code"/>
+                </Property>
+                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                  <Table columnCount="4" rowCount="4">
+                    <Column editable="true" title="Title 1" type="java.lang.Object"/>
+                    <Column editable="true" title="Title 2" type="java.lang.Object"/>
+                    <Column editable="true" title="Title 3" type="java.lang.Object"/>
+                    <Column editable="true" title="Title 4" type="java.lang.Object"/>
+                  </Table>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="pnlResponsable2">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="bc" green="fd" red="c6" type="rgb"/>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jSeparator3" alignment="0" max="32767" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="lblFiltroPacientes" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="txtFiltroPacientes" min="-2" pref="162" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="234" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="cmbFiltradoPacientes" alignment="1" min="-2" pref="195" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="lblFiltroResponsables" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="txtFiltroResponsables" min="-2" pref="162" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="234" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="cmbFiltradoResponsables" alignment="1" min="-2" pref="195" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="btnVincular" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="228" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="lblCalle" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="sep4" max="32767" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="txtCalle" min="-2" pref="152" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="lblNoExt" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="txtNoExt" min="-2" pref="109" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="lblNoInt" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="txtNoInt" min="-2" pref="93" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="lblColonia" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="txtColonia" min="-2" pref="206" max="-2" attributes="0"/>
+                                      <EmptySpace min="0" pref="12" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Component id="jSeparator1" alignment="1" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="299" max="-2" attributes="0"/>
+                              <Component id="lblTitulo" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="79" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="jSeparator2" max="32767" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="lblCP" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="txtCP" min="-2" pref="111" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                                      <Component id="lblEstadoResponsable" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="cmbEstadoResponsable" min="-2" pref="152" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="lblMunicipioResponsable" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="txtMunicipioResponsable" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="lblDatos" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="chkCasaSagradoCorazon" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Component id="lblDireccion" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="lblRelacion" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="txtRelacion" min="-2" pref="165" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="btnAgregar" min="-2" pref="200" max="-2" attributes="0"/>
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                                                      <Component id="btnModificar" min="-2" pref="200" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Group type="102" attributes="0">
+                                                      <Component id="btnEliminar" min="-2" pref="200" max="-2" attributes="0"/>
+                                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                      <Component id="btnBuscar" min="-2" pref="200" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Component id="btnListar" min="-2" pref="263" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                                                      <Component id="lblTel" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="txtTel" max="32767" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Component id="lblResponsable" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="txtResponsable" min="-2" pref="162" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Component id="lblApPat" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="txtApPatResponsable" min="-2" pref="115" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Component id="lblTel2" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="txtTel2" max="32767" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Component id="lblTel3" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="txtTel3" max="32767" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Component id="lblApMat" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="txtApMatResponsable" min="-2" pref="125" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="btnListarPacientesDelResponsable" min="-2" pref="379" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                                              <Component id="btnListarResponsablesDelPaciente" min="-2" pref="327" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="lblTitulo" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="lblFiltroResponsables" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="txtFiltroResponsables" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="cmbFiltradoResponsables" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="txtFiltroPacientes" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="cmbFiltradoPacientes" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblFiltroPacientes" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="btnVincular" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Component id="jSeparator3" min="-2" pref="0" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jSeparator1" min="-2" pref="10" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lblDatos" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="chkCasaSagradoCorazon" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lblResponsable" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtResponsable" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblApPat" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtApPatResponsable" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblApMat" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtApMatResponsable" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lblTel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtTel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblTel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblTel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtTel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtTel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="lblDireccion" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lblCalle" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtCalle" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblNoExt" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtNoExt" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblNoInt" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtNoInt" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblColonia" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtColonia" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="sep4" min="-2" pref="0" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lblCP" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="txtCP" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblEstadoResponsable" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="cmbEstadoResponsable" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblMunicipioResponsable" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="txtMunicipioResponsable" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lblRelacion" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtRelacion" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jSeparator2" min="-2" pref="10" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="btnAgregar" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
+                                  <Component id="btnEliminar" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
+                                  <Component id="btnBuscar" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="103" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="btnModificar" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
+                                  <Component id="btnListar" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="btnListarPacientesDelResponsable" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
+                          <Component id="btnListarResponsablesDelPaciente" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JTextField" name="txtTel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="fntComponente" type="code"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtApPatResponsable">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="fntComponente" type="code"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtApPatResponsableActionPerformed"/>
+                <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtApPatResponsableKeyReleased"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtApMatResponsable">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="fntComponente" type="code"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtApMatResponsableActionPerformed"/>
+                <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtApMatResponsableKeyReleased"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtResponsable">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="fntComponente" type="code"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtResponsableKeyReleased"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblResponsable">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="fntComponente" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Nombre(s):"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblApPat">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="fntComponente" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Apellido Paterno:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblApMat">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="fntComponente" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Apellido Materno:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JSeparator" name="jSeparator3">
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblTitulo">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="fntTitulo" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Datos del Responsable"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblTel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="fntComponente   " type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="T&#xe9;lefono:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JSeparator" name="sep4">
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblDireccion">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="fntComponente" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Direcci&#xf3;n del responsable:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblNoExt">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="fntComponente" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="No. Exterior:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblRelacion">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="fntComponente" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Relacion con el paciente:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="chkCasaSagradoCorazon">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="fntComponente" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Casa del Sagrado Coraz&#xf3;n a.c"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblCalle">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="fntComponente" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Calle:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblNoInt">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="fntComponente" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="No.Interior:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblColonia">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="fntComponente" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Colonia:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblCP">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="fntComponente" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="C&#xf3;digo Postal:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtCalle">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="fntComponente" type="code"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtCalleActionPerformed"/>
+                <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtCalleKeyReleased"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtNoExt">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="fntComponente" type="code"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtNoInt">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="fntComponente" type="code"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtColonia">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="fntComponente" type="code"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtColoniaKeyReleased"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtCP">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="fntComponente" type="code"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblDatos">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="fntComponente" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Datos del Responsable:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblMunicipioResponsable">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="fntComponente" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Municipio:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblEstadoResponsable">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="fntComponente" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Estado:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="cmbEstadoResponsable">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="fntComponente" type="code"/>
+                </Property>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="4">
+                    <StringItem index="0" value="Item 1"/>
+                    <StringItem index="1" value="Item 2"/>
+                    <StringItem index="2" value="Item 3"/>
+                    <StringItem index="3" value="Item 4"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cmbEstadoResponsableActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnAgregar">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="fntComponente" type="code"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/imagenes/perfil.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Agregar "/>
+                <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="dmsBoton" type="code"/>
+                </Property>
+                <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="dmsBoton" type="code"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAgregarActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnEliminar">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="fntComponente" type="code"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/imagenes/perfil-3.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Eliminar "/>
+                <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="dmsBoton" type="code"/>
+                </Property>
+                <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="dmsBoton" type="code"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnEliminarActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnBuscar">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="fntComponente" type="code"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/imagenes/perfil-2.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Buscar "/>
+                <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="dmsBoton" type="code"/>
+                </Property>
+                <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="dmsBoton" type="code"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnBuscarActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblFiltroPacientes">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="fntComponente" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Filtro Pacientes: "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtFiltroPacientes">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="fntComponente" type="code"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtFiltroPacientesKeyReleased"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="cmbFiltradoPacientes">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="fntComponente" type="code"/>
+                </Property>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="4">
+                    <StringItem index="0" value="Item 1"/>
+                    <StringItem index="1" value="Item 2"/>
+                    <StringItem index="2" value="Item 3"/>
+                    <StringItem index="3" value="Item 4"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cmbFiltradoPacientesActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblFiltroResponsables">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="fntComponente" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Filtro Responsables: "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="cmbFiltradoResponsables">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="fntComponente" type="code"/>
+                </Property>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="4">
+                    <StringItem index="0" value="Item 1"/>
+                    <StringItem index="1" value="Item 2"/>
+                    <StringItem index="2" value="Item 3"/>
+                    <StringItem index="3" value="Item 4"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtFiltroResponsables">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="fntComponente" type="code"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtFiltroResponsablesKeyReleased"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnModificar">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="fntComponente" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Modificar"/>
+                <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="dmsBoton" type="code"/>
+                </Property>
+                <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="dmsBoton" type="code"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnModificarActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnListar">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="fntComponente" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Listar  Responsables"/>
+                <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="dmsBoton" type="code"/>
+                </Property>
+                <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="dmsBoton" type="code"/>
+                </Property>
+                <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="dmsBoton" type="code"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnListarActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JSeparator" name="jSeparator1">
+            </Component>
+            <Component class="javax.swing.JSeparator" name="jSeparator2">
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblTel2">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="fntComponente   " type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="T&#xe9;lefono 2:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblTel3">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="fntComponente   " type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="T&#xe9;lefono 3:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtTel2">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="fntComponente" type="code"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtTel3">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="fntComponente" type="code"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnListarPacientesDelResponsable">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="fntComponente" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Listar Pacientes del Responsable"/>
+                <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="dmsBoton" type="code"/>
+                </Property>
+                <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="dmsBoton" type="code"/>
+                </Property>
+                <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="dmsBoton" type="code"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnListarPacientesDelResponsableActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnListarResponsablesDelPaciente">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="fntComponente" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Listar Responsables del Paciente"/>
+                <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="dmsBoton" type="code"/>
+                </Property>
+                <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="dmsBoton" type="code"/>
+                </Property>
+                <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="dmsBoton" type="code"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnListarResponsablesDelPacienteActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnVincular">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="fntComponente" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Vincular"/>
+                <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="dmsBoton" type="code"/>
+                </Property>
+                <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="dmsBoton" type="code"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnVincularActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtRelacion">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="fntComponente" type="code"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtRelacionKeyReleased"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtMunicipioResponsable">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="fntComponente" type="code"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtMunicipioKeyRelased"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="lblRe">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="fntComponente" type="code"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Responsables:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblPa">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="fntComponente" type="code"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Pacientes:"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="tblPacientes">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="fntComponente" type="code"/>
+                </Property>
+                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                  <Table columnCount="4" rowCount="4">
+                    <Column editable="true" title="Title 1" type="java.lang.Object"/>
+                    <Column editable="true" title="Title 2" type="java.lang.Object"/>
+                    <Column editable="true" title="Title 3" type="java.lang.Object"/>
+                    <Column editable="true" title="Title 4" type="java.lang.Object"/>
+                  </Table>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

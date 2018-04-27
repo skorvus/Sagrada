@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Menu class="javax.swing.JMenuBar" name="mbrPrincipal">
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="mn1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Men&#xfa; Historial"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="mitHistorial1">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Shift+H"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Historial de salidas y entradas"/>
+                <Property name="actionCommand" type="java.lang.String" value="Historial Medico"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mitHistorial1ActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="mitResponsables">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+R"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Responsables de Pacientes"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mitResponsablesActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="mitPacientes">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+P"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Pacientes"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mitPacientesActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JPopupMenu$Separator" name="sep5">
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+      </SubComponents>
+    </Menu>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="menuBar" type="java.lang.String" value="mbrPrincipal"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="pnlHistorial" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="pnlHistorial" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="pnlHistorial">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="bc" green="fd" red="c6" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="pnlDatos2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                  <Component id="jScrollPane1" pref="810" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="pnlDatos2" alignment="0" max="32767" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jScrollPane1" min="-2" pref="119" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="tblHistorial">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="fntComponente" type="code"/>
+                </Property>
+                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                  <Table columnCount="4" rowCount="4">
+                    <Column editable="true" title="Title 1" type="java.lang.Object"/>
+                    <Column editable="true" title="Title 2" type="java.lang.Object"/>
+                    <Column editable="true" title="Title 3" type="java.lang.Object"/>
+                    <Column editable="true" title="Title 4" type="java.lang.Object"/>
+                  </Table>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="pnlDatos2">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="bc" green="fd" red="c6" type="rgb"/>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="lblNoExp" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="txtNoExpediente" min="-2" pref="162" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="58" max="-2" attributes="0"/>
+                              <Component id="lblIngreso" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="lblMotivos" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblAutorizado" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="cmbMotivos" min="-2" pref="143" max="-2" attributes="0"/>
+                                  <Component id="txtAutorizado" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="lblComentarios" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jScrollPane2" min="-2" pref="268" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="btnEgresar" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btnListarEgresos" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="btnReingresar" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                                      <Component id="btnListarIngresos" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Component id="btnListasMovimientos" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="59" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="lblIngreso" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblNoExp" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtNoExpediente" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblAutorizado" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtAutorizado" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblMotivos" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cmbMotivos" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
+                              <Component id="lblComentarios" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jScrollPane2" min="-2" pref="113" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="40" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="btnEgresar" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnReingresar" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                      <Component id="btnListasMovimientos" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="btnListarEgresos" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnListarIngresos" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="91" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="lblIngreso">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="fntTitulo" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Ingresos y Egresos  de Paciente"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblMotivos">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="fntComponente" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Motivos de egreso:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="cmbMotivos">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="fntComponente" type="code"/>
+                </Property>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="4">
+                    <StringItem index="0" value="Item 1"/>
+                    <StringItem index="1" value="Item 2"/>
+                    <StringItem index="2" value="Item 3"/>
+                    <StringItem index="3" value="Item 4"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblAutorizado">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="fntComponente" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Autorizado por:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnEgresar">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="fntComponente" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Egresar Paciente"/>
+                <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="dmsBoton" type="code"/>
+                </Property>
+                <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="dmsBoton" type="code"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnEgresarActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnListarEgresos">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="fntComponente" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Listar Egresos"/>
+                <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="dmsBoton" type="code"/>
+                </Property>
+                <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="dmsBoton" type="code"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnListarEgresosActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnListarIngresos">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="fntComponente" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Listar ingresos"/>
+                <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="dmsBoton" type="code"/>
+                </Property>
+                <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="dmsBoton" type="code"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnListarIngresosActionPerformed"/>
+              </Events>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="txaComentarios">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                      <Connection code="fntComponente" type="code"/>
+                    </Property>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txaComentariosKeyReleased"/>
+                  </Events>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="lblComentarios">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="fntComponente" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Comentarios:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnListasMovimientos">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="fntComponente" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Listar todos los movimientos"/>
+                <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="dmsBoton" type="code"/>
+                </Property>
+                <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="dmsBoton" type="code"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnListasMovimientosActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblNoExp">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="fntComponente" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="No. Expediente:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtNoExpediente">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="fntComponente" type="code"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnReingresar">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="fntComponente" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Reingresar Paciente"/>
+                <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="dmsBoton" type="code"/>
+                </Property>
+                <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="dmsBoton" type="code"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnReingresarActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtAutorizado">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="fntComponente" type="code"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtAutorizadoKeyReleased"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
